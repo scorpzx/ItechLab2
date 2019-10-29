@@ -1,0 +1,52 @@
+.table_tr{
+    background: rgb(128, 211, 125);
+}
+#triginom{
+    color:rgb(255, 0, 0);
+}
+li{
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+#forma{
+    position: absolute;
+    top: 200px;
+    left: 400px;
+
+}
+img{
+    float: left;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+.flex_box_container{
+    width: 550px;
+    height: 70px;
+}
+.flex_box{
+    width: 130px;
+    height: 50px;
+}
+input[type="radio"]{
+    display: none;
+}
+ input[type="radio"]+SPAN{
+  border: 2px solid rgb(0, 0, 0);
+  display: inline-block;
+  cursor: pointer;
+  width: 1em;
+  height: 1em;
+ border-radius: 50%;
+
+    }
+
+    input[type="radio"]:checked+SPAN{
+     background: rgb(255, 0, 0);
+      border-radius: 0%;
+
+    }
